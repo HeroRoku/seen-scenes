@@ -15,7 +15,7 @@ block content
       else if newMoviesArray
         h1 Movies
         h2 Select a movie
-        div
+        div.moviesContainer
           each movie in newMoviesArray
             if movie.posterPath
               .filmBlock
@@ -28,7 +28,7 @@ block content
                   input(type="hidden" name="releaseDate" value=movie.releaseDate)
                   input(type="hidden" name="posterPath" value=`https://image.tmdb.org/t/p/w342/${movie.posterPath}`)
                   input(type="hidden" name="genreId" value=movie.genreId)
-                  button(type='submit' class="nav-button" id="addMovieButton")
+                  button(type='submit' class="addMovie " id="addMovieButton")
                     p= movie.title
                     p= movie.releaseYear
 

@@ -1,244 +1,244 @@
 .filmContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 15px 50px 0 50px;
-    font-size: 12px;
-    background: #ffffff;
-    padding: 50px;
-    width: 750px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 15px 50px 0 50px;
+  font-size: 12px;
+  background: #ffffff;
+  padding: 50px;
+  width: 750px;
 }
 
 .filmTitle {
-    margin: 10px 0 0 35px;
-    font-size: 26pt;
-    color: #555;
-    font-weight: bold;
+  margin: 10px 0 0 35px;
+  font-size: 26pt;
+  color: #555;
+  font-weight: bold;
 }
 
 .filmDirector {
-    color: #555;
-    margin: 25px 0 10px 25px;
-    font-size: 14pt;
+  color: #555;
+  margin: 25px 0 10px 25px;
+  font-size: 14pt;
 }
 
 .filmDescription {
-    color: #555;
-    margin: 50px 0 10px 25px;
-    font-size: 14pt;
-    width: 400px;
+  color: #555;
+  margin: 50px 0 10px 25px;
+  font-size: 14pt;
+  width: 400px;
 }
 
 .releaseDate {
-    color: #555;
-    margin: 5px 0 10px 0;
-    font-size: 14pt;
+  color: #555;
+  margin: 5px 0 10px 0;
+  font-size: 14pt;
 }
 
 .filmGenre {
-    color: #555;
-    margin: 5px 0 10px 25px;
-    font-size: 14pt;
+  color: #555;
+  margin: 5px 0 10px 25px;
+  font-size: 14pt;
 }
 
 .types {
-    width: 400px;
-    padding-top: 25px;
-    margin: 75px 0 25px 25px;
-    border-top: 1px solid rgba(204, 198, 184);
-    display: flex;
-    flex-direction: row;
+  width: 400px;
+  padding-top: 25px;
+  margin: 75px 0 25px 25px;
+  border-top: 1px solid rgba(204, 198, 184);
+  display: flex;
+  flex-direction: row;
 }
 
 .filmsContainer {
-    display: grid;
-    margin: 1rem;
-    padding: 0.5rem;
+  display: grid;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .filmContents {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 500px;
 }
 
 .filmPoster {
-    height: 18rem;
-    border-radius: 30px;
+  height: 18rem;
+  border-radius: 30px;
 }
 
 .filmPoster:hover {
-    opacity: 0.8;
-    cursor: pointer;
-    -webkit-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 .delete-review-button,
 .submit-review-button {
-    margin: 10px 0 10px 0;
-    padding: 10px;
-    font-size: 9pt;
-    width: 135px;
-    height: 40px;
-    text-align: center;
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid rgb(204, 198, 184);
-    background: rgb(241, 238, 228);
-    color: #555;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  font-size: 9pt;
+  width: 135px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid rgb(204, 198, 184);
+  background: rgb(241, 238, 228);
+  color: #555;
 }
 
 .like-btn-text {
-    padding: 10px;
-    font-size: 11pt;
-    width: 185px;
-    height: 40px;
-    text-align: center;
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid rgb(204, 198, 184);
-    background: rgb(241, 238, 228);
-    color: #555;
+  padding: 10px;
+  font-size: 11pt;
+  width: 185px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid rgb(204, 198, 184);
+  background: rgb(241, 238, 228);
+  color: #555;
 }
 
 .like-btn-text:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .add {
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    text-align: center;
-    background-color: rgba(53, 143, 86, 0.8);
-    color: white;
-    font-size: 20pt;
-    border-radius: 0 5px 5px 0;
-    border: none;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  text-align: center;
+  background-color: rgba(53, 143, 86, 0.8);
+  color: white;
+  font-size: 20pt;
+  border-radius: 0 5px 5px 0;
+  border: none;
 }
 
 .item {
-    padding: 15px;
+  padding: 15px;
 }
 
 .dropDown {
-    padding: 5px;
-    border: none;
-    margin-bottom: 10px;
-    color: white;
-    width: 150px;
-    height: 35px;
-    border-radius: 5px 0 0 5px;
-    text-align: center;
-    background-color: rgba(53, 143, 86, 0.8);
+  padding: 5px;
+  border: none;
+  margin-bottom: 10px;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  background-color: rgba(53, 143, 86, 0.8);
 }
 
 .reelContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .reviewText {
-    resize: none;
-    padding: 25px;
-    width: 710px;
-    height: 150px;
-    text-align: left;
-    background-color: rgba(241, 238, 228, 0.4);
-    border: 1px solid rgba(204, 198, 184, 0.7);
-    border-radius: 5px;
+  resize: none;
+  padding: 25px;
+  width: 710px;
+  height: 150px;
+  text-align: left;
+  background-color: rgba(241, 238, 228, 0.4);
+  border: 1px solid rgba(204, 198, 184, 0.7);
+  border-radius: 5px;
 }
 
 .existingReviews {
-    text-align: center;
-    margin: 25px 10px 10px 50px;
-    color: black;
-    padding: 5px;
-    width: 700px;
-    margin-bottom: 25px;
+  text-align: center;
+  margin: 25px 10px 10px 50px;
+  color: black;
+  padding: 5px;
+  width: 700px;
+  margin-bottom: 25px;
 }
 
 .moviesContainer {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .poster {
-    height: 22rem;
-    margin-bottom: 1rem;
+  height: 22rem;
+  margin-bottom: 1rem;
 }
 
 .filmIdPoster {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .filmContents {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .review {
-    width: 750px;
-    padding: 25px 0 25px 50px;
+  width: 750px;
+  padding: 25px 0 25px 50px;
 }
 
 .reviewTitle,
 .leaveTitle {
-    margin-top: 50px;
-    margin-left: 45px;
-    padding: 10px;
-    width: 715px;
-    text-align: left;
-    color: rgba(42, 25, 14, 0.7);
-    font-weight: bold;
-    font-size: 11pt;
-    border-bottom: 1px solid rgb(204, 198, 184);
+  margin-top: 50px;
+  margin-left: 45px;
+  padding: 10px;
+  width: 715px;
+  text-align: left;
+  color: rgba(42, 25, 14, 0.7);
+  font-weight: bold;
+  font-size: 11pt;
+  border-bottom: 1px solid rgb(204, 198, 184);
 }
 
 .reviewContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .review-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .filmIdPoster {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .filmContents {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .review {
-    display: grid;
+  display: grid;
 }
 
 .reviewContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1.5rem;
 }
 
 .review-form {
-    flex-grow: 1;
-    text-align: center;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .browse-section {
@@ -296,7 +296,7 @@
 .browse-title {
   color: rgb(2, 2, 2);
   font-size: 25px;
-  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
   /* align-self: flex-start; */
   text-align: left;
   margin-bottom: 17px;
@@ -331,4 +331,19 @@
 .browsing {
   display: flex;
   flex-direction: row;
+}
+
+.addMovie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 11pt;
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid rgb(204, 198, 184);
+  background: rgb(241, 238, 228);
+  color: #555;
 }
